@@ -36,8 +36,9 @@ We aim to build a programming language that looks like HTML. The current syntax 
 ```html
 <!-- starting expression with condition -->
 <expression x="a > 1">
-	<!-- if a > 2 -->
+	<!-- if a > 1 -->
 	<ya-really>
+		<!-- printf "a is greater than one (1) -->
 		<printf>
 			"a is greater than one (1)"
 		</printf>
